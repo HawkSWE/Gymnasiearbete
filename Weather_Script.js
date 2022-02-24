@@ -1,6 +1,4 @@
-function Väder();{
-
-var stad = document.getElementsByName("City").value;
+let stad = prompt("Vart vill du se vädret?")
 
 $.get( "http://api.openweathermap.org/data/2.5/weather?q="+stad+"&appid=c5bf5d99c4ebb07f0a60cbabebec2b95&units=metric", function( data ) {
 
@@ -25,4 +23,3 @@ $.get( "http://api.openweathermap.org/data/2.5/weather?q="+stad+"&appid=c5bf5d99
     $("#iconbild").attr('src', imgicon);
 });
 
-}
