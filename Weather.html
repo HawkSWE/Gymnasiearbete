@@ -10,7 +10,7 @@
     <body>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="Company.html">Api website</a>
+                <p class="navbar-brand">Api website</p>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#meny">
                     <span class="navbar-toggler-icon"></span>
@@ -25,19 +25,24 @@
                             <a class="nav-link" href="Weather.html">Weather api</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Science.html">Science News</a>
+                            <a class="nav-link" href="Dog.html">Dog facts</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <div>
-                <h1 id="stadnamn"></h1>
-                <h2>Temperatur: <span id="temp"> </span> </h2>
-                <h2>Minimum temperatur: <span id="mintemp"> </span> </h2>
-                <h2>Maximum temperatur: <span id="maxtemp"> </span> </h2>
-                <h2>Humidity: <span id="humidity"> </span> </h2>
-                <h2>Wind speed: <span id="windspeed"> </span> </h2>
-                <img id="iconbild" src="" alt="icon">
+            <br>
+            <div class="d-flex justify-content-center">
+                <div class="card" style="width: 18rem; text-align: center;">
+                    <img id="iconbild" src="" alt="icon">
+                    <div class="card-body">
+                        <h1 id="stadnamn"></h1>
+                        <p>Temperatur: <span id="temp"> </span> </p>
+                        <p>Minimum temperatur: <span id="mintemp"> </span> </p>
+                        <p>Maximum temperatur: <span id="maxtemp"> </span> </p>
+                        <p>Humidity: <span id="humidity"> </span> </p>
+                        <p>Wind speed: <span id="windspeed"> </span> </p>
+                    </div>
+                  </div>
             </div>
         </div>
         <script src="Weather_Script.js"></script>
