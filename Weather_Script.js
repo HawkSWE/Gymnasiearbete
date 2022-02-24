@@ -1,3 +1,5 @@
+let stad = prompt("Vart vill du se vädret");
+
 $.get( "http://api.openweathermap.org/data/2.5/weather?q=Huddinge&appid=c5bf5d99c4ebb07f0a60cbabebec2b95&units=metric", function( data ) {
 
     // på rad 6 till 12 så sparar jag datan jag får från länken i flera variablar
