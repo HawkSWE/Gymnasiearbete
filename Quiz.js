@@ -12,7 +12,7 @@ console.log(felsvar2);
 console.log(felsvar3);
 console.log(rättsvar);
 
-$("#stadnamn").html(namn);
+$("#").html();
 
 
 });
